@@ -1,7 +1,262 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: single
+title: "Curriculum Vitae"
+author_profile: false
+classes: wide
+toc: false
+permalink: /
 ---
+
+<div class="cv-blog-home">
+  <header class="cv-navbar-shell">
+    <div class="cv-navbar">
+      <a class="cv-navbar__brand" href="#top">Zhimeng Zhu</a>
+      <nav class="cv-navbar__menu">
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Project</a>
+        <a href="#skills">Skills</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="top" class="cv-banner">
+    <div class="cv-banner__mask">
+      <div class="cv-banner__content">
+        <p class="cv-banner__kicker">Research Portfolio</p>
+        <h1 class="cv-banner__title">Zhimeng Zhu</h1>
+        <p class="cv-banner__subtitle">
+          Automation undergraduate at Huazhong University of Science and Technology with research experience in
+          multispectral perception, embedded intelligence, medical imaging, federated learning, and generative models.
+        </p>
+        <div class="cv-banner__chips">
+          <span>HUST</span>
+          <span>Wuhan, China</span>
+          <span><a href="mailto:xxxx@email.com">xxxx@email.com</a></span>
+          <span><a href="tel:+8618871015050">+86 18871015050</a></span>
+        </div>
+      </div>
+      <div class="cv-scroll-down">Scroll</div>
+    </div>
+  </section>
+
+  <main class="cv-board-wrap">
+    <div class="cv-board">
+      <article class="cv-index-card cv-index-card--intro">
+        <div class="cv-index-card__content">
+          <p class="cv-card-tag">Profile</p>
+          <h2>Academic Snapshot</h2>
+          <p>
+            My current work centers on computer vision and intelligent systems, especially where model design,
+            real-world deployment, and research communication need to connect cleanly.
+          </p>
+          <div class="cv-quick-grid">
+            <div>
+              <h3>Degree</h3>
+              <p>B.Eng. in Automation</p>
+            </div>
+            <div>
+              <h3>Focus</h3>
+              <p>CV, FL, Embedded AI, Medical Imaging</p>
+            </div>
+            <div>
+              <h3>Publication</h3>
+              <p>ITM Web of Conferences</p>
+            </div>
+            <div>
+              <h3>Scholarship</h3>
+              <p>Top 10% Social Service Scholarship</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article id="education" class="cv-index-card">
+        <div class="cv-index-card__aside">
+          <p class="cv-card-tag">01</p>
+          <h2>Education</h2>
+          <p>Academic background and current degree path.</p>
+        </div>
+        <div class="cv-index-card__content">
+          <div class="cv-entry">
+            <div class="cv-entry__head">
+              <div>
+                <h3>Huazhong University of Science and Technology</h3>
+                <p class="cv-entry__role">Bachelor of Engineering in Automation</p>
+              </div>
+              <p class="cv-entry__date">09/2022-06/2026</p>
+            </div>
+            <div class="cv-pill-row">
+              <span>Minor: Finance</span>
+              <span>GPA: XX/5.0</span>
+              <span>Social Service Scholarship (Top 10%, 09/2024)</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article id="publications" class="cv-index-card">
+        <div class="cv-index-card__aside">
+          <p class="cv-card-tag">02</p>
+          <h2>Publications</h2>
+          <p>Research outputs and ongoing work.</p>
+        </div>
+        <div class="cv-index-card__content cv-stack">
+          <div class="cv-entry">
+            <h3>Enhancing Brain Tumor Detection: A Comparative Study of CNN Architectures Using MRI Data</h3>
+            <p>
+              Zhu, Zhimeng. (2025). <em>Enhancing Brain Tumor Detection: A Comparative Study of CNN Architectures Using MRI Data.</em>
+              ITM Web of Conferences, 70, 03014.
+            </p>
+            <p><strong>DOI:</strong> <a href="https://doi.org/10.1051/itmconf/20257003014">10.1051/itmconf/20257003014</a></p>
+          </div>
+          <div class="cv-entry">
+            <h3>In Progress</h3>
+            <p>Xxxxxxx</p>
+          </div>
+        </div>
+      </article>
+
+      <article id="research" class="cv-index-card">
+        <div class="cv-index-card__aside">
+          <p class="cv-card-tag">03</p>
+          <h2>Research</h2>
+          <p>Main lab, seminar, and project experiences.</p>
+        </div>
+        <div class="cv-index-card__content cv-stack">
+          <div class="cv-entry">
+            <div class="cv-entry__head">
+              <div>
+                <h3>Multispectral Object Detection and Embedded Deployment</h3>
+                <p class="cv-entry__role">National Key Lab of Multispectral Information Intelligent Processing</p>
+                <p class="cv-entry__meta">Advisor: Assoc. Prof. Tian Tian, School of Artificial Intelligence and Automation, HUST</p>
+              </div>
+              <p class="cv-entry__date">09/2024-09/2025</p>
+            </div>
+            <ul>
+              <li>Designed a deep learning-based multispectral object detection model using TensorFlow and PyTorch to improve accuracy and robustness under complex conditions.</li>
+              <li>Constructed a high-quality multispectral dataset through acquisition, cleaning, and annotation for subsequent training and validation.</li>
+              <li>Optimized model architecture and computation strategies using XXXXX to address overfitting and vanishing gradients.</li>
+              <li>Deployed the optimized model on an embedded platform to improve real-time inference and on-device efficiency.</li>
+            </ul>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-entry__head">
+              <div>
+                <h3>Traffic Engineering Specification Perception and QA System based on LLMs</h3>
+                <p class="cv-entry__role">Lab: XXXXX</p>
+                <p class="cv-entry__meta">Advisor: Jiang Zehao</p>
+              </div>
+              <p class="cv-entry__date">12/2023-06/2025</p>
+            </div>
+            <ul>
+              <li>Built and optimized a multi-layer neural network model for evaluating traffic safety infrastructure quality on national and provincial roads.</li>
+              <li>Collected image data using UAVs and LiDAR sensors, then applied augmentation, normalization, feature engineering, and statistical analysis for standardized perception processing.</li>
+              <li>Integrated convolutional neural networks and transfer learning with pretrained models to improve feature extraction efficiency and generalization.</li>
+              <li>Fine-tuned key hyperparameters such as learning rate and batch size to improve model stability and accuracy.</li>
+              <li>Verified recognition performance on lane markings, traffic signs, guardrails, and signal lights, achieving an accuracy of XXX%.</li>
+            </ul>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-entry__head">
+              <div>
+                <h3>Federated Learning for Personalized Financial Services</h3>
+                <p class="cv-entry__role">Project Leader</p>
+                <p class="cv-entry__meta">Advisor: Assoc. Prof. Lintao Ye, School of Artificial Intelligence and Automation, HUST</p>
+              </div>
+              <p class="cv-entry__date">04/2024-04/2025</p>
+            </div>
+            <ul>
+              <li>Applied federated learning to personalized financial services to enhance recommendation quality and client risk assessment while preserving data privacy.</li>
+              <li>Reproduced FedAvg and FedProx and built a distributed training framework in PyTorch using the Federated-Learning-PyTorch dataset.</li>
+              <li>Addressed domain-specific Non-IID challenges such as cross-bank customer data, regional consumer behavior, and temporal transaction patterns.</li>
+              <li>Integrated the FedProx regularization term to mitigate client heterogeneity and improve stability in imbalanced real-world scenarios.</li>
+            </ul>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-entry__head">
+              <div>
+                <h3>Image Generation with Variational Autoencoders</h3>
+                <p class="cv-entry__role">Online Research Seminar: Machine Learning and Data Science - Development of Applications</p>
+                <p class="cv-entry__meta">Team Leader, Advisor: Prof. Mark Vogelsberger, MIT Department of Physics</p>
+              </div>
+              <p class="cv-entry__date">06/2024-08/2024</p>
+            </div>
+            <ul>
+              <li>Optimized a standard VAE and developed BetaVAE, Conditional VAE, and InfoVAE variants to improve the quality-diversity trade-off.</li>
+              <li>Preprocessed the CelebA dataset of more than 200,000 face images through cleaning, normalization, and augmentation.</li>
+              <li>Implemented all models in PyTorch with GPU-based training and tuned learning rates, batch sizes, and optimizer settings.</li>
+              <li>Evaluated outputs using SSIM and user studies, identifying InfoVAE as the strongest model with an SSIM of 0.338.</li>
+            </ul>
+          </div>
+
+          <div class="cv-entry">
+            <div class="cv-entry__head">
+              <div>
+                <h3>Enhancing Brain Tumor Detection: A Comparative Study of CNN Architectures Using MRI Data</h3>
+                <p class="cv-entry__role">Independent research project</p>
+              </div>
+              <p class="cv-entry__date">06/2024-08/2024</p>
+            </div>
+            <ul>
+              <li>Proposed an enhanced CNN model, VGG19-BMT, by improving convolutional layers and feature extraction modules for brain tumor detection.</li>
+              <li>Preprocessed the Kaggle Brain MRI dataset with normalization and augmentation including rotation, brightness shift, and scaling.</li>
+              <li>Applied ReduceLROnPlateau, Dropout, and a custom classifier head to improve convergence and reduce overfitting.</li>
+              <li>Outperformed VGG16, VGG19, ResNet18, and EfficientNet-B2, achieving 99.51% accuracy and a 0.9498 F1-score.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article id="projects" class="cv-index-card">
+        <div class="cv-index-card__aside">
+          <p class="cv-card-tag">04</p>
+          <h2>Project</h2>
+          <p>Applied engineering work beyond core research.</p>
+        </div>
+        <div class="cv-index-card__content">
+          <div class="cv-entry">
+            <div class="cv-entry__head">
+              <div>
+                <h3>Autonomous Water Quality Monitoring System Based on Unmanned Surface Vehicle</h3>
+              </div>
+              <p class="cv-entry__date">01/2023-04/2023</p>
+            </div>
+            <ul>
+              <li>Designed an intelligent monitoring system integrating USV autonomous navigation with real-time data analysis for ecological protection and sustainable lake management.</li>
+              <li>Optimized USV path planning using A* and Dijkstra algorithms under complex lake topography and changing hydrodynamic conditions.</li>
+              <li>Applied statistical analysis and machine learning techniques to preprocess water quality data and build predictive models for key environmental indicators.</li>
+              <li>Used environmental science principles and fuzzy mathematics to improve model accuracy, robustness, and monitoring efficiency.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article id="skills" class="cv-index-card">
+        <div class="cv-index-card__aside">
+          <p class="cv-card-tag">05</p>
+          <h2>Skills</h2>
+          <p>Programming background and personal interests.</p>
+        </div>
+        <div class="cv-index-card__content cv-skill-grid">
+          <div class="cv-entry">
+            <h3>Programming</h3>
+            <p>Python, C, C++, MATLAB, Java, R</p>
+          </div>
+          <div class="cv-entry">
+            <h3>Interests</h3>
+            <p>Piano with 13 years of training and multiple awards in competitions and performances, plus long-term interest in basketball.</p>
+          </div>
+          <div class="cv-entry">
+            <h3>Status</h3>
+            <p>Preparing research-focused applications while continuing project-based AI and automation work.</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+</div>
